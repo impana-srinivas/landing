@@ -1,0 +1,85 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('landing/css/components/button.css');
+@import url('landing/css/components/background.css');
+
+
+/* Utilities */
+body {
+  align-items: center;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+div{
+  display: block;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  width: 100%;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner p, .banner h1 {
+  color: white;
+}
+
+.btn-lewagon {
+  display: inline-block;
+  background-color: #8a41ce;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 970px;
+  margin: 0 auto;
+}
+
+.cards p {
+  font-size: 15px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #443e3e;
+}
+
+.card img {
+  size: 50px;
+  padding: 10px;
+}
+
+h4 {
+  text-align: center;
+}
